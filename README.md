@@ -41,9 +41,10 @@ By default, WSL2 can grab as much host memory as it wants. To keep the rest of t
 * **RAM Limit:** 2 GB
 * **CPU Limit:** 2 Virtual Cores
 
+[PowerShell CLI Validation]
+
 ### 2. Disabling Public Registrations (`SIGNUPS_ALLOWED=false`)
 Since this is a private instance, public sign-ups are turned off at the container level. Anyone trying to register an account without an invite gets blocked immediately, keeping unauthorized users out.
-
 
 
 ### 3. Automatic Local HTTPS with Caddy
