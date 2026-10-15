@@ -44,7 +44,7 @@ By default, WSL2 can grab as much host memory as it wants. To keep the rest of t
 ### 2. Disabling Public Registrations (`SIGNUPS_ALLOWED=false`)
 Since this is a private instance, public sign-ups are turned off at the container level. Anyone trying to register an account without an invite gets blocked immediately, keeping unauthorized users out.
 
-![Security Hardening Proof](assets/security-hardening.png)
+
 
 ### 3. Automatic Local HTTPS with Caddy
 Modern browsers and Bitwarden browser extensions block non-HTTPS password managers for security reasons. I put Caddy in front of Vaultwarden to automatically generate local SSL certificates and seamlessly route incoming traffic on port `8443` straight to Vaultwarden's backend on port `80`.
